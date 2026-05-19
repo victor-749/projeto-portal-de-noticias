@@ -1,6 +1,4 @@
 #featured {
-  margin-top: 40px;
-
   img {
     height: 100%;
     object-fit: cover;
@@ -22,6 +20,16 @@
         transparent 0%,
         #020617 100%
       );
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+    }
+
+    h2 {
+      margin-top: 8px;
     }
   }
 }
